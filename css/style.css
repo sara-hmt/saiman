@@ -1,0 +1,29 @@
+body,
+header {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.header-pic {
+  background-image: url("../images/header-image1.png");
+  background-position: center;
+  background-size: cover;
+  height: 742px;
+}
+.header-fade {
+  background-image: url("../images/header-image.png");
+  background-position: center;
+  background-size: cover;
+  height: 742px;
+  position: static;
+  z-index: 100;
+}
+.line::before {
+  content: "";
+  position: fixed;
+  top: 0px;
+  z-index: 99;
+  width: 0.8px;
+  height: 3944px;
+  background-color: rgba(227, 227, 227, 0.6);
+}
