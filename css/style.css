@@ -1,7 +1,8 @@
-body,
-header {
+body {
   margin: 0 !important;
   padding: 0 !important;
+  direction: rtl;
+  font-family: YekanBakh;
 }
 
 /************** header css codes***************/
@@ -10,155 +11,250 @@ header {
   background-position: center;
   background-size: cover;
   height: 742px;
+ 
+
 }
 .header-fade {
   background-image: url("../images/header-image.png");
   background-position: center;
   background-size: cover;
   height: 742px;
-  position: static;
-  z-index: 100;
 }
 
 .line::before {
-  content: "";
+  content: " ";
   position: fixed;
   top: 0px;
-  z-index: 99;
-  width: 0.8px;
+  width: 0.1px;
   height: 3944px;
   background-color: rgba(227, 227, 227, 0.6);
+ 
 }
 
-.hatch{
-    height: 66.66%;
-    border-bottom: 0.8px solid rgba(227, 227, 227, 0.6);
-    background: repeating-linear-gradient(-45deg, #000,rgba(227, 227, 227, 0.6) 0.8px);
+.hatch {
+  height: 66.66%;
+  border-bottom: 0.1px solid rgba(227, 227, 227, 0.6);
+  background: repeating-linear-gradient(
+    -45deg,
+    #000,
+    rgba(227, 227, 227, 0.6) 0.9px
+  );
+ 
+}
+.phone{
+  font-family: iranyekan;
+}
+.header-btn {
+  position: relative;
+  bottom: 23px;
+  border-radius: 0%;
 }
 
-.header-btn{
-    position:relative;
-    top:320px;
-    left:0;
-    border-radius: 0%;
+.circle {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  right: 89.4vw;
+  bottom: 600px;
 }
-
-.header-text{
-    position:relative;
-    bottom:450px;
+.share {
+  position: relative;
+  right: 2px;
+  top: 2px;
 }
-.circle{
-    width: 32px;
-    height: 32px;
-    position:relative;
-    left:110px;
-    bottom: 530px;
-}
-.share{
-    position: relative;
-    right:2px;
-}
-.line-row::after {
-    content:" ";
-    width: 110px;
-    height:0.8px;
-    display: block;
-    background-color: rgba(227, 227, 227, 0.6); 
-    position:relative;
-    bottom: 547.5px;;
-}
-
 .line-row::before {
-    content:" ";
-    width: 89.4vw;
-    height:0.8px;
-    display: block;
-    background-color: rgba(227, 227, 227, 0.6);
-    position:relative;
-    left:142px;
-    bottom: 514.5px;
+  content: " ";
+  width: 89.4vw;
+  height: 0.1px;
+  display: block;
+  background-color: rgba(227, 227, 227, 0.6);
+  position: relative;
+  bottom: 585px;
 }
-/**************end of header css codes***************/
 
+.line-row::after {
+  content: " ";
+  width: 110px;
+  height: 0.1px;
+  display: block;
+  background-color: rgba(227, 227, 227, 0.6);
+  position: relative;
+  bottom: 618px;
+  right: 91.5vw;
+}
+.icon-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play2 {
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #1fafbc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play1 {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  border: solid 1px #1b9ca7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play {
+  width: 58px;
+  height: 58px;
+  flex-grow: 0;
+  border-radius: 50px;
+  border: solid 1px #08585f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text1{
+  position: relative;
+  top: 45px;
+}
+.text1::before {
+  content: " ";
+  width: 2px;
+  height: 62px;
+  background-color: #1fafbc;
+  display: block;
+  position: relative;
+  top: 60px;
+}
+.text2::before {
+  content: " ";
+  width: 5px;
+  height: 88px;
+  background-color: #1fafbc;
+  display: block;
+  position: relative;
+  bottom:10px;
+}
+.arrow-bottom{
+  position: relative;
+  top:690px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header-text {
+  position: relative;
+  bottom: 510px;
+}
+h1{
+  font-size: 3.7vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+h2{
+  font-size: 3.8vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+h3{
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1fafbc;
+}
+h4{
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+ 
+}
+header p{
+  font-size: 0.8vw;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}
 
 /**************icomoon css codes***************/
 @font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?fab91w');
-    src:  url('../fonts/icomoon.eot?fab91w#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?fab91w') format('truetype'),
-      url('../fonts/icomoon.woff?fab91w') format('woff'),
-      url('../fonts/icomoon.svg?fab91w#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-vector:before {
-    content: "\e90e";
-    color: #c6c6c6;
-  }
-  .icon-arrow-right:before {
-    content: "\e902";
-    color: #fff;
-  }
-  .icon-arrow-left:before {
-    content: "\e903";
-    color: #fff;
-  }
-  .icon-Video-play:before {
-    content: "\e908";
-    color: #fff;
-  }
-  .icon-arrow:before {
-    content: "\e900";
-    color: #1fafbc;
-  }
-  .icon-phone:before {
-    content: "\e901";
-    color: #1fafbc;
-  }
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?fab91w");
+  src: url("../fonts/icomoon.eot?fab91w#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?fab91w") format("truetype"),
+    url("../fonts/icomoon.woff?fab91w") format("woff"),
+    url("../fonts/icomoon.svg?fab91w#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-vector:before {
+  content: "\e90e";
+  color: #c6c6c6;
+}
+.icon-arrow-right:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-arrow-left:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-Video-play:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-arrow:before {
+  content: "\e900";
+  color: #1fafbc;
+}
+.icon-phone:before {
+  content: "\e901";
+  color: #1fafbc;
+}
 /**************end of icomoon codes***************/
+
+/**************font face codes***************/
+@font-face {
+  font-family: YekanBakh;
+  src: url('../fonts/YekanBakh-Regular.ttf');
+}
+@font-face {
+  font-family: IRANYekan;
+  src: url('../fonts/IRANYekanRegular.ttf');
+}
+/**************end of font face codes***************/
