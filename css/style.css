@@ -28,7 +28,7 @@ body {
   width: 0.1px;
   height: 3944px;
   background-color: rgba(227, 227, 227, 0.6);
- 
+
 }
 
 .hatch {
@@ -180,7 +180,6 @@ h4{
   line-height: normal;
   letter-spacing: normal;
   text-align: right;
- 
 }
 header p{
   font-size: 0.8vw;
@@ -192,6 +191,51 @@ header p{
   text-align: right;
   color: #fff;
 }
+/**************end of header section codes***************/
+
+/**************about section codes***************/
+.about{
+  position: relative;
+  bottom: 117px;
+  z-index: 101;
+}
+.bullet::before{
+  content: " ";
+  width: 2px;
+  height: 29px;
+  display: block;
+  background-color: #1fafbc;
+  position: relative;
+  top:25px;
+}
+
+h5{
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+h6{
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000;
+}
+
+/**************end of about section codes***************/
+
+
+
+
 
 /**************icomoon css codes***************/
 @font-face {
