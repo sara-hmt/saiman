@@ -202,12 +202,12 @@ header p{
   display: block;
   background-color: #1fafbc;
   position: relative;
-  bottom: 3px;
+  bottom: 5px;
   left:15px;
 }
 
 h5{
-  font-size: 12px;
+  font-size:68%;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -218,7 +218,7 @@ h5{
 }
 
 h6{
-  font-size: 28px;
+  font-size: 130%;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -226,6 +226,16 @@ h6{
   letter-spacing: normal;
   text-align: right;
   color: #000;
+}
+p{
+  font-size: 68%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: right;
+  color: #757575;
 }
 
 /**************end of about section codes***************/
