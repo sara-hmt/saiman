@@ -5,13 +5,12 @@ body {
   font-family: YekanBakh;
 }
 
-/************** header css codes***************/
+/***************************** header css codes**********************/
 .header-pic {
   background-image: url("../images/header-image1.png");
   background-position: center;
   background-size: cover;
   height: 742px;
- 
 
 }
 .header-fade {
@@ -28,7 +27,6 @@ body {
   width: 0.1px;
   height: 3944px;
   background-color: rgba(227, 227, 227, 0.6);
-
 }
 
 .hatch {
@@ -45,8 +43,6 @@ body {
   font-family: iranyekan;
 }
 .header-btn {
-  position: relative;
-  bottom: 23px;
   border-radius: 0%;
 }
 
@@ -62,9 +58,9 @@ body {
   right: 2px;
   top: 2px;
 }
-.line-row::before {
+/* .line-row::before {
   content: " ";
-  width: 89.4vw;
+  width:1330px;
   height: 0.1px;
   display: block;
   background-color: rgba(227, 227, 227, 0.6);
@@ -74,14 +70,14 @@ body {
 
 .line-row::after {
   content: " ";
-  width: 110px;
+  width:110px;
   height: 0.1px;
   display: block;
   background-color: rgba(227, 227, 227, 0.6);
   position: relative;
   bottom: 618px;
   right: 91.5vw;
-}
+} */
 .icon-play {
   display: flex;
   justify-content: center;
@@ -173,7 +169,7 @@ h3{
   color: #1fafbc;
 }
 h4{
-  font-size: 20px;
+  font-size:1.5vw;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -191,7 +187,7 @@ header p{
   text-align: right;
   color: #fff;
 }
-/**************end of header section codes***************/
+/**************************end of header section codes**********************/
 
 /**************about section codes***************/
 .about{
@@ -206,7 +202,8 @@ header p{
   display: block;
   background-color: #1fafbc;
   position: relative;
-  top:25px;
+  bottom: 3px;
+  left:15px;
 }
 
 h5{
